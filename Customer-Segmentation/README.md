@@ -34,7 +34,7 @@ Key steps:
 > Due to GitHub limitations, the interactive Plotly chart cannot be rendered here.  
 > Below is a screenshot of the 3D cluster visualization:
 
-![3D Scatter Plot](images/3d_scatter.png)
+![3D Scatter Plot](3D-chart.png)
 
 ---
 
