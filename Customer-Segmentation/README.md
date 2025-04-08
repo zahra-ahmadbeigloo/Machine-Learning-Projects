@@ -23,7 +23,7 @@ Key steps:
 
 - `Customer Segmentation.ipynb` — main Jupyter Notebook with code
 - `Cust_Segmentation.csv` — dataset for real-world customer segmentation
-- `/images/3d_scatter.png` — screenshot of interactive 3D cluster plot
+- `3D-chart.png` — screenshot of interactive 3D cluster plot
 
 ---
 
@@ -34,7 +34,7 @@ Key steps:
 > Due to GitHub limitations, the interactive Plotly chart cannot be rendered here.  
 > Below is a screenshot of the 3D cluster visualization:
 
-![3D Scatter Plot](images/3d_scatter.png)
+![3D Scatter Plot](3D-chart.png)
 
 ---
 
