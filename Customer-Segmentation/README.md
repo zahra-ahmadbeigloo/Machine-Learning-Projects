@@ -23,7 +23,7 @@ Key steps:
 
 - `Customer Segmentation.ipynb` — main Jupyter Notebook with code
 - `Cust_Segmentation.csv` — dataset for real-world customer segmentation
-- `/images/3d_scatter.png` — screenshot of interactive 3D cluster plot
+- `3D-chart.png` — screenshot of interactive 3D cluster plot
 
 ---
 
