@@ -37,7 +37,7 @@ To predict the **`custcat`** label (customer category) using various customer at
 
 ## 📉 Results
 
-- Best accuracy achieved with KNN: *Low (approx. 0.40–0.45 range)*
+- Best accuracy achieved with KNN: *Low (0.435)*
 - Accuracy varies based on feature subset, number of neighbors, and PCA components
 - XGBoost was tested with stratified cross-validation and sample weighting, but also produced relatively low accuracy
 
