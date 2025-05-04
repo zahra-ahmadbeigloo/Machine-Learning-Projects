@@ -2,7 +2,7 @@
 - **Python** for backend logic and data processing  
 - **Pandas** & **NumPy** for efficient data handling  
 - **Matplotlib** & **Seaborn** for data visualization  
-- **Scikit-Learn** for machine learning (Logistic Regression, SVM, One-vs-One, One-vs-Rest)  
+- **Scikit-Learn** for machine learning (**Logistic Regression**, **SVM**, **One-vs-One**, **One-vs-Rest**)  
 - **StandardScaler** & **OneHotEncoder** for feature engineering  
 
 ---
