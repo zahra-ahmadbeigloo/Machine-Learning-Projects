@@ -1,81 +1,39 @@
- # Customer Segmentation using K-Means Clustering
-
-This project demonstrates how to perform customer segmentation using K-Means clustering with both synthetic data and real customer data. It includes data preprocessing, clustering analysis, and both 2D and 3D visualizations, including an interactive 3D plot using Plotly.
-
-## 📌 Project Overview
-
-Customer segmentation is a key task in understanding and targeting customer groups based on common characteristics. This project uses:
-
-- **Synthetic data** (from `make_blobs`) for clustering demos
-- **Real-world dataset** (`Cust_Segmentation.csv`)
-- **K-Means Clustering** to group customers
-- **Visualization** using Matplotlib and Plotly (2D & interactive 3D)
-
-Key steps:
-- Data cleaning & scaling
-- Applying K-Means clustering with different `k` values
-- Visualizing cluster groups
-- Assigning human-readable labels to clusters
+### Customer Segmentation Analysis built with: 
+- **Python** for backend logic and data processing  
+- **Pandas** & **NumPy** for data handling and feature transformation  
+- **Scikit-Learn** for clustering models (**K-Means**)  
+- **Matplotlib** & **Seaborn** for data visualization  
+- **Plotly** for interactive 3D scatter plots  
 
 ---
 
-## 📂 Files
+# Customer Segmentation Using K-Means Clustering
 
-- `Customer Segmentation.ipynb` — main Jupyter Notebook with code
-- `Cust_Segmentation.csv` — dataset for real-world customer segmentation
-- `3D-chart.png` — screenshot of interactive 3D cluster plot
+This project applies **K-Means clustering** to segment customers based on various attributes such as **age, income, debt ratio, and employment years**. By grouping customers into clusters, businesses can tailor marketing strategies and financial offerings based on consumer profiles.  
 
----
-
-## 📸 Example Output
-
-### 📈 Cluster Visualization (Interactive 3D Plot)
-
-> Due to GitHub limitations, the interactive Plotly chart cannot be rendered here.  
-> Below is a screenshot of the 3D cluster visualization:
-
-![3D Scatter Plot](3D-chart.png)
+## Key Insights:  
+- Higher-income customers tend to have longer employment histories and lower debt ratios.  
+- Debt-to-income ratio varies significantly across customer groups, impacting financial stability.  
+- Education levels correlate with spending patterns, affecting financial decision-making.  
+- Cluster labels help categorize customers, providing meaningful segmentation insights.  
+- 3D scatter plots visually distinguish clusters, making customer patterns easier to interpret.  
 
 ---
 
-## 🚀 How to Run
+## Visualization Gallery
+- **Interactive 3D Scatter Plot (Education vs. Age vs. Income)**  
+![3d plot](Plots/plot3.gif)
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/customer-segmentation.git
-   cd customer-segmentation
+---
 
-2. Install the dependencies:
-   ```bash
-   pip install pandas numpy matplotlib scikit-learn plotly
+## Dependencies
 
-3. Open the notebook:
-    ```bash
-    jupyter notebook "Customer Segmentation.ipynb"
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn plotly
+```
 
-4. Run all cells to perform clustering and generate visualizations.
+---
 
+## License
 
-## 📊 Clustering Results
-
-Each customer is clustered into one of three main segments:
-
-Cluster Label	 |Description
-----------------|-----------
-0|LATE CAREER, AFFLUENT, AND EDUCATED
-1|MID CAREER AND MIDDLE INCOME
-2|EARLY CAREER AND LOW INCOME
-
-
-These segments are generated based on features like age, income, years employed, education, etc.
-
-## 🛠 Libraries Used
-````bash
-pandas, numpy, matplotlib, scikit-learn, plotly
-````
-
-
-## 📬 Contact
-If you have questions or suggestions, feel free to open an issue or contact me via email.
-
-
+This project is licensed under the MIT License.
