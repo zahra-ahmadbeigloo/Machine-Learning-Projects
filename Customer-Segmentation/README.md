@@ -1,4 +1,4 @@
-### Customer Segmentation Analysis built with:**  
+### Customer Segmentation Analysis built with: 
 - **Python** for backend logic and data processing  
 - **Pandas** & **NumPy** for data handling and feature transformation  
 - **Scikit-Learn** for clustering models (**K-Means**)  
